@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>École Chrétienne Sola Gratia - Excellence Éducative et Formation Intégrale</title>
+    
+    <!-- SEO Meta Tags Optimisés -->
+    <meta name="description" content="École Chrétienne Sola Gratia à Lomé, Togo - Formation d'excellence de la maternelle au lycée depuis 2002. Éducation chrétienne de qualité, résultats exceptionnels aux examens nationaux.">
+    <meta name="keywords" content="école chrétienne Lomé, éducation Togo, maternelle primaire collège lycée, école privée Lomé, formation chrétienne, École Sola Gratia, éducation excellence Togo, école Yokoé">
+    <meta name="author" content="École Chrétienne Sola Gratia">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="French">
+    <meta name="geo.region" content="TG">
+    <meta name="geo.position" content="6.1319;1.2228">
+    <meta name="ICBM" content="6.1319, 1.2228">
+    
+    <!-- Open Graph pour les réseaux sociaux -->
+    <meta property="og:title" content="École Chrétienne Sola Gratia - Excellence Éducative">
+    <meta property="og:description" content="Formation d'excellence de la maternelle au lycée. Éducation chrétienne de qualité à Lomé, Togo depuis 2002.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.solagratia.tg">
+    <meta property="og:locale" content="fr_FR">
+    
+    <!-- Schema.org pour le référencement -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "École Chrétienne Sola Gratia",
+        "alternateName": "ECSG",
+        "description": "École chrétienne d'excellence offrant une formation complète de la maternelle au lycée",
+        "foundingDate": "2002-09-16",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Quartier Yokoé",
+            "addressLocality": "Lomé",
+            "addressCountry": "TG"
+        },
+        "telephone": "+228 91 47 74 56",
+        "email": "Ecolesolagratia2002@gmail.com",
+        "url": "https://www.solagratia.tg"
+    }
+    </script>
+    
+    <!-- External Resources -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Source+Sans+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Variables CSS Professionnelles */
+        :root {
+            --primary-blue: #1e3a8a;
+            --secondary-blue: #1e40af;
+            --accent-blue: #3b82f6;
+            --light-blue: #dbeafe;
+            --dark-blue: #1e293b;
+            --white: #ffffff;
+            --off-white: #f8fafc;
+            --text-dark: #0f172a;
+            --text-gray: #475569;
+            --text-light: #64748b;
+            --border-light: #e2e8f0;
+            --gold-accent: #d97706;
+            
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+            --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+            
+            --gradient-primary: linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #3b82f6 100%);
+            --gradient-light: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        }
+
+        /* Reset et Base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.7;
+            color: var(--text-dark);
+            background: var(--white);
+            font-size: 16px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+            line-height: 1.2;
+            color: var(--text-dark);
+        }
+
+        /* Header Professionnel */
+        .main-header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(30, 58, 138, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        .main-header.scrolled {
+            background: rgba(30, 58, 138, 0.98);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+        }
+
+        .brand-logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            color: white;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+
+        .brand-logo:hover {
+            transform: translateY(-2px);
+        }
+
+        .logo-icon {
+            width: 55px;
+            height: 55px;
+            background: white;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            color: var(--primary-blue);
+            font-size: 1.3rem;
+            box-shadow: var(--shadow-md);
+        }
+
+        .brand-text h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 0;
+            line-height: 1.2;
+        }
+
+        .brand-text span {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            display: block;
+            font-weight: 400;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.8rem 0;
+            position: relative;
+            transition: color 0.3s ease;
+            font-size: 1rem;
+        }
+
+        .nav-link:hover {
+            color: var(--light-blue);
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--light-blue);
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        /* Mobile menu toggle */
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        .menu-toggle span {
+            width: 25px;
+            height: 3px;
+            background: white;
+            margin: 3px 0;
+            transition: 0.3s;
+        }
+
+        /* Section Hero Raffinée */
+        .hero-section {
+            min-height: 100vh;
+            background: var(--gradient-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            position: relative;
+            overflow: hidden;
+            padding-top: 120px; /* Ajout d'un padding pour descendre le contenu */
+        }
+
+        .hero-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 80%, rgba(255,255,255,0.05) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255,255,255,0.03) 0%, transparent 50%);
+        }
+
+        .hero-content {
+            max-width: 1000px;
+            padding: 0 2rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-title {
+            font-size: clamp(3rem, 7vw, 5rem);
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            line-height: 1.1;
+            color: white;
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1.2rem, 3vw, 1.8rem);
+            color: var(--light-blue);
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .hero-verse {
+            font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+            font-style: italic;
+            margin-bottom: 2.5rem;
+            opacity: 0.95;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .hero-description {
+            font-size: clamp(1.1rem, 2vw, 1.2rem);
+            margin-bottom: 3rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.8;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 16px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-primary {
+            background: white;
+            color: var(--primary-blue);
+            box-shadow: 0 10px 25px rgba(255,255,255,0.2);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(255,255,255,0.3);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid rgba(255,255,255,0.7);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255,255,255,0.1);
+            border-color: white;
+        }
+
+        /* Sections Professionnelles */
+        .section {
+            padding: 6rem 0;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 5rem;
+        }
+
+        .section-title {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 700;
+            color: var(--primary-blue);
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: var(--gold-accent);
+            border-radius: 2px;
+        }
+
+        .section-subtitle {
+            font-size: 1.3rem;
+            color: var(--text-gray);
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        /* Section Résultats Premium */
+        .results-section {
+            background: var(--gradient-light);
+        }
+
+        .results-showcase {
+            background: var(--gradient-primary);
+            border-radius: 20px;
+            padding: 4rem 3rem;
+            color: white;
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--shadow-xl);
+        }
+
+        .results-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .results-title {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            color: white;
+            text-align: center;
+        }
+
+        .announcement-card {
+            background: rgba(255,255,255,0.95);
+            color: var(--text-dark);
+            padding: 2.5rem;
+            border-radius: 15px;
+            margin: 3rem 0;
+            text-align: center;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .announcement-card h3 {
+            color: var(--primary-blue);
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .exam-results {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2.5rem;
+            margin: 4rem 0;
+        }
+
+        .exam-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(15px);
+            padding: 2.5rem;
+            border-radius: 15px;
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .exam-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .exam-card h3 {
+            color: white;
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .result-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            font-size: 1.1rem;
+        }
+
+        .result-row:last-child {
+            border-bottom: none;
+        }
+
+        .exam-score {
+            font-size: 1.3rem;
+            color: var(--light-blue);
+            font-weight: 700;
+        }
+
+        /* Section À Propos Professionnelle */
+        .about-content {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 5rem;
+            align-items: start;
+            margin-top: 3rem;
+        }
+
+        .about-text {
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        .about-text p {
+            margin-bottom: 2rem;
+            text-align: justify;
+        }
+
+        .highlight-text {
+            color: var(--primary-blue);
+            font-weight: 600;
+        }
+
+        .mission-card {
+            background: var(--gradient-light);
+            padding: 3rem;
+            border-radius: 20px;
+            border-left: 5px solid var(--primary-blue);
+            box-shadow: var(--shadow-md);
+            height: fit-content;
+        }
+
+        .mission-card h3 {
+            color: var(--primary-blue);
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+        }
+
+        .mission-list {
+            list-style: none;
+            margin-top: 1.5rem;
+        }
+
+        .mission-list li {
+            padding: 0.8rem 0;
+            padding-left: 2rem;
+            position: relative;
+            font-size: 1.1rem;
+        }
+
+        .mission-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--primary-blue);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        /* Section Valeurs Élégante */
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
+            margin-top: 4rem;
+        }
+
+        .value-card {
+            background: var(--white);
+            padding: 3rem 2rem;
+            border-radius: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 1px solid var(--border-light);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .value-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--gradient-primary);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .value-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .value-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .value-card i {
+            font-size: 3.5rem;
+            color: var(--primary-blue);
+            margin-bottom: 2rem;
+        }
+
+        .value-card h3 {
+            font-size: 1.5rem;
+            color: var(--text-dark);
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+
+        .value-card p {
+            color: var(--text-gray);
+            line-height: 1.7;
+            font-size: 1.1rem;
+        }
+
+        /* Footer Professionnel */
+        .main-footer {
+            background: var(--gradient-primary);
+            color: white;
+            padding: 5rem 0 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 3rem;
+            margin-bottom: 3rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .footer-section h3 {
+            color: white;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .footer-section p {
+            margin-bottom: 1rem;
+            opacity: 0.9;
+            line-height: 1.7;
+            font-size: 1.1rem;
+        }
+
+        .footer-section a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        .developer-credit {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            margin-top: 2rem;
+        }
+
+        .developer-credit p {
+            font-size: 1rem;
+            opacity: 0.8;
+        }
+
+        .developer-credit .company-name {
+            color: var(--light-blue);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 1024px) {
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-menu {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: var(--primary-blue);
+                flex-direction: column;
+                padding: 2rem;
+                gap: 1rem;
+            }
+
+            .nav-menu.active {
+                display: flex;
+            }
+
+            .menu-toggle {
+                display: flex;
+            }
+            
+            .nav-container {
+                padding: 1rem;
+            }
+            
+            .hero-content {
+                padding: 0 1rem;
+            }
+            
+            .action-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .container {
+                padding: 0 1rem;
+            }
+
+            .exam-results {
+                grid-template-columns: 1fr;
+            }
+
+            .results-showcase {
+                padding: 2rem 1.5rem;
+            }
+        }
+
+        /* Animations */
+        .animate-fadeIn {
+            animation: fadeInUp 0.8s ease both;
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header" id="mainHeader">
+        <nav class="nav-container">
+            <a href="#home" class="brand-logo">
+                <div class="logo-icon">ECSG</div>
+                <div class="brand-text">
+                    <h1>Sola Gratia</h1>
+                    <span>École Chrétienne</span>
+                </div>
+            </a>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À Propos</a></li>
+                <li><a href="#results" class="nav-link">Résultats 2025</a></li>
+                <li><a href="#values" class="nav-link">Nos Valeurs</a></li>
+                <li><a href="#programs" class="nav-link">Programmes</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">École Chrétienne Sola Gratia</h1>
+            <div class="hero-subtitle">Volonté • Courage • Succès</div>
+            <div class="hero-verse">"Je puis tout par celui qui me fortifie." - Philippiens 4:13</div>
+            <p class="hero-description">
+                Depuis plus de vingt années d'excellence éducative, l'École Chrétienne Sola Gratia forme une génération de leaders intègres et compétents, 
+                alliant formation académique de haut niveau et valeurs chrétiennes authentiques dans un environnement d'apprentissage exceptionnel.
+            </p>
+            <div class="action-buttons">
+                <a href="#about" class="btn btn-primary">
+                    <i class="fas fa-graduation-cap"></i>
+                    Découvrir Notre Excellence
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-phone"></i>
+                    Nous Contacter
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="section results-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Résultats Exceptionnels 2025</h2>
+                <p class="section-subtitle">
+                    Des performances remarquables qui témoignent de notre engagement envers l'excellence académique 
+                    et confirment notre position de leader dans l'éducation privée togolaise
+                </p>
+            </div>
+            
+            <div class="results-showcase">
+                <div class="results-content">
+                    <div class="results-header">
+                        <h2 class="results-title">ÉCOLE CHRÉTIENNE SOLA GRATIA</h2>
+                        <div style="font-size: 1.3rem; margin-bottom: 2rem; text-align: center; line-height: 1.6;">
+                            <strong>INSTITUTION D'EXCELLENCE ÉDUCATIVE</strong><br>
+                            <span style="font-size: 1.1rem;">Formation complète de la Maternelle au Lycée - Sections Littéraires et Scientifiques</span>
+                        </div>
+                    </div>
+                    
+                    <div class="announcement-card">
+                        <h3>Rentrée Académique 2025-2026</h3>
+                        <p style="font-size: 1.2rem; margin-top: 1.5rem; line-height: 1.7;">
+                            Ouverture exceptionnelle de nouvelles classes au Lycée Sola Gratia avec un programme académique renforcé 
+                            et des infrastructures modernes pour accompagner nos élèves vers l'excellence.
+                        </p>
+                    </div>
+                    
+                    <div class="exam-results">
+                        <div class="exam-card">
+                            <h3>Certificat d'Études du Premier Degré</h3>
+                            <div style="text-align: center; margin: 2rem 0; color: white; background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 12px;">
+                                <p style="font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem;">Premier du Centre d'Examen</p>
+                                <p style="font-size: 2rem; font-weight: 800; color: var(--light-blue);">49/50</p>
+                                <p style="font-size: 1rem; margin-top: 1rem;">Taux de réussite exceptionnel avec des positions remarquables</p>
+                            </div>
+                            <div class="result-row">
+                                <span>Candidats présentés</span>
+                                <span class="exam-score">50</span>
+                            </div>
+                            <div class="result-row">
+                                <span>Candidats admis</span>
+                                <span class="exam-score">49</span>
+                            </div>
+                            <div class="result-row">
+                                <span>Taux de réussite</span>
+                                <span class="exam-score">98%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="exam-card">
+                            <h3>Brevet d'Études du Premier Cycle</h3>
+                            <div style="text-align: center; margin: 2rem 0; color: white;">
+                                <p style="font-size: 2rem; font-weight: 800; color: var(--light-blue);">54/59</p>
+                                <p style="font-size: 1rem; margin-top: 1rem;">Performance remarquable confirmant notre excellence pédagogique</p>
+                            </div>
+                            <div class="result-row">
+                                <span>Candidats présentés</span>
+                                <span class="exam-score">59</span>
+                            </div>
+                            <div class="result-row">
+                                <span>Candidats admis</span>
+                                <span class="exam-score">54</span>
+                            </div>
+                            <div class="result-row">
+                                <span>Taux de réussite</span>
+                                <span class="exam-score">91.5%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="exam-card">
+                            <h3>Baccalauréat - Session 2025</h3>
+                            <div style="background: rgba(255,255,255,0.1); padding: 2rem; border-radius: 12px;">
+                                <h4 style="color: white; margin-bottom: 1.5rem; text-align: center; font-size: 1.3rem;">Deuxième Session</h4>
+                                <div class="result-row">
+                                    <span>Série A4 (Littéraire)</span>
+                                    <span class="exam-score">12/15</span>
+                                </div>
+                                <div class="result-row">
+                                    <span>Série D (Scientifique)</span>
+                                    <span class="exam-score">29/35</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="text-align: center; margin-top: 4rem;">
+                        <p style="color: white; font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem; font-family: 'Playfair Display', serif;">
+                            "Avec Dieu, nous accomplissons des exploits remarquables"
+                        </p>
+                        <p style="color: var(--light-blue); font-style: italic; font-size: 1.1rem; margin-bottom: 3rem;">
+                            L'excellence éducative demeure notre engagement quotidien
+                        </p>
+                        <div style="margin-top: 3rem; padding: 2rem; background: rgba(255,255,255,0.15); border-radius: 15px; backdrop-filter: blur(10px);">
+                            <p style="font-size: 1.2rem; margin-bottom: 1rem; font-weight: 600;">Informations et Inscriptions</p>
+                            <p style="font-size: 1.6rem; font-weight: 800; color: white;">+228 90 07 10 65 / +228 91 47 74 56</p>
+                            <p style="font-size: 1rem; margin-top: 1rem;">Ecolesolagratia2002@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">À Propos de Notre Institution</h2>
+                <p class="section-subtitle">
+                    Une tradition d'excellence éducative ancrée dans les valeurs chrétiennes authentiques, 
+                    formant des leaders de demain depuis plus de deux décennies d'engagement pédagogique
+                </p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Fondée le <span class="highlight-text">16 septembre 2002</span>, l'École Chrétienne Sola Gratia s'impose aujourd'hui 
+                        comme une référence incontournable dans le paysage éducatif togolais. Située dans le dynamique quartier de 
+                        <span class="highlight-text">Yokoé à Lomé</span>, notre institution privée confessionnelle s'engage depuis plus de 
+                        vingt années à dispenser une formation d'excellence qui transcende les simples acquisitions académiques.
+                    </p>
+                    
+                    <p>
+                        Notre vision éducative s'articule autour d'une philosophie pédagogique holistique qui intègre harmonieusement 
+                        l'excellence académique, la formation spirituelle et le développement du caractère. Cette approche 
+                        multidimensionnelle permet à nos élèves de développer non seulement leurs compétences intellectuelles, 
+                        mais également leur intelligence émotionnelle et leur maturité spirituelle.
+                    </p>
+                    
+                    <p>
+                        L'École Chrétienne Sola Gratia accompagne ses élèves dans un parcours éducatif complet, de la 
+                        <span class="highlight-text">maternelle au lycée</span>, en créant un environnement d'apprentissage stimulant 
+                        où la rigueur académique s'allie parfaitement à la bienveillance éducative. Notre corps enseignant, 
+                        composé de professionnels qualifiés et dévoués, met en œuvre des méthodes pédagogiques innovantes 
+                        adaptées aux exigences contemporaines de l'éducation.
+                    </p>
+                    
+                    <p>
+                        Les résultats exceptionnels obtenus par nos élèves aux différents examens nationaux témoignent de 
+                        l'efficacité de notre approche pédagogique et confirment notre engagement indéfectible envers 
+                        l'excellence éducative. Ces performances remarquables constituent la meilleure validation de notre 
+                        mission éducative et renforcent notre détermination à former une génération de leaders responsables 
+                        et compétents.
+                    </p>
+                </div>
+                
+                <div class="mission-card">
+                    <h3>Notre Mission Éducative</h3>
+                    <p style="font-size: 1.2rem; font-weight: 600; color: var(--primary-blue); margin-bottom: 2rem; line-height: 1.6; font-style: italic;">
+                        "Former une génération d'excellence, intègre et compétente, inspirée par les valeurs chrétiennes authentiques 
+                        et préparée aux défis du monde contemporain"
+                    </p>
+                    <ul class="mission-list">
+                        <li>Dispensation d'un enseignement de qualité conforme aux programmes officiels de la République Togolaise</li>
+                        <li>Intégration harmonieuse des valeurs bibliques dans l'ensemble du processus éducatif</li>
+                        <li>Développement de l'excellence académique et de l'esprit de recherche chez nos apprenants</li>
+                        <li>Formation de citoyens responsables, éthiques et engagés dans le développement communautaire</li>
+                        <li>Accompagnement personnalisé de chaque élève dans la découverte et l'épanouissement de ses talents</li>
+                        <li>Préparation méthodique et rigoureuse aux examens nationaux et concours d'entrée</li>
+                        <li>Promotion des valeurs de leadership, d'intégrité et de service dans la communauté</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section id="values" class="section" style="background: var(--gradient-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Valeurs Fondamentales</h2>
+                <p class="section-subtitle">
+                    Les principes directeurs qui orientent notre action éducative et façonnent l'identité 
+                    distinctive de notre institution d'excellence
+                </p>
+            </div>
+            
+            <div class="values-grid">
+                <div class="value-card">
+                    <i class="fas fa-cross"></i>
+                    <h3>Foi et Spiritualité</h3>
+                    <p>
+                        La foi chrétienne authentique constitue le fondement inébranlable de notre philosophie éducative. 
+                        Nous cultivons chez nos élèves une spiritualité profonde et une relation personnelle avec Dieu, 
+                        source de sagesse et de direction pour leur vie future.
+                    </p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Excellence et Rigueur</h3>
+                    <p>
+                        L'excellence académique demeure notre standard incontournable. Nous exigeons de nos élèves 
+                        le meilleur d'eux-mêmes dans tous les domaines, cultivant ainsi l'esprit de dépassement 
+                        et la recherche constante de la perfection dans leurs accomplissements.
+                    </p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Intégrité et Caractère</h3>
+                    <p>
+                        Nous formons des individus d'une intégrité exemplaire, capables de prendre des décisions éthiques 
+                        et de maintenir des standards moraux élevés. Le développement du caractère constitue une priorité 
+                        absolue dans notre processus de formation globale.
+                    </p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Leadership et Service</h3>
+                    <p>
+                        Nous développons chez nos élèves les qualités de leadership authentique et l'esprit de service. 
+                        Ils apprennent à exercer une influence positive dans leur communauté et à contribuer 
+                        significativement au développement de la société.
+                    </p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Innovation Pédagogique</h3>
+                    <p>
+                        Notre approche pédagogique combine harmonieusement les méthodes d'enseignement traditionnelles 
+                        éprouvées et les innovations éducatives contemporaines, créant ainsi un environnement 
+                        d'apprentissage dynamique et efficace.
+                    </p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Vision Globale</h3>
+                    <p>
+                        Nous préparons nos élèves à évoluer avec succès dans un monde globalisé, en développant 
+                        leur ouverture d'esprit, leur adaptabilité et leur capacité à relever les défis 
+                        du vingt-et-unième siècle avec confiance et compétence.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Programmes Académiques</h2>
+                <p class="section-subtitle">
+                    Un cursus éducatif complet et progressif, de la petite enfance jusqu'à l'obtention du baccalauréat, 
+                    conçu pour garantir une formation d'excellence à chaque étape du développement de l'apprenant
+                </p>
+            </div>
+            
+            <div class="values-grid">
+                <div class="value-card">
+                    <i class="fas fa-seedling"></i>
+                    <h3>École Maternelle</h3>
+                    <p>
+                        Notre programme de petite enfance offre un environnement sécurisant et stimulant où les tout-petits 
+                        développent leurs capacités cognitives, sociales et spirituelles. L'éveil à la foi et l'acquisition 
+                        des premières compétences s'effectuent dans un cadre bienveillant et professionnel.
+                    </p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>École Primaire</h3>
+                    <p>
+                        L'enseignement primaire constitue la base fondamentale de la formation académique. Nos élèves 
+                        acquièrent solidement les compétences en lecture, écriture, mathématiques et sciences, 
+                        tout en développant leur compréhension des valeurs chrétiennes et civiques essentielles.
+                    </p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-school"></i>
+                    <h3>Collège d'Excellence</h3>
+                    <p>
+                        Le cycle d'enseignement moyen approfondit les connaissances académiques et prépare 
+                        méthodiquement nos élèves au Brevet d'Études du Premier Cycle. L'accent est mis sur 
+                        le développement de l'esprit critique et de l'autonomie intellectuelle.
+                    </p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-university"></i>
+                    <h3>Lycée Sola Gratia</h3>
+                    <p>
+                        Notre lycée propose une formation complète dans les sections littéraires (A4) et scientifiques 
+                        (C et D), préparant rigoureusement nos élèves au baccalauréat. Les taux de réussite exceptionnels 
+                        témoignent de la qualité de notre encadrement pédagogique.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section" style="background: var(--gradient-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contactez Notre Institution</h2>
+                <p class="section-subtitle">
+                    Notre équipe administrative demeure à votre entière disposition pour vous fournir 
+                    toutes les informations nécessaires concernant nos programmes éducatifs et les modalités d'inscription
+                </p>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 3rem; margin-top: 4rem;">
+                <div style="background: var(--gradient-primary); color: white; padding: 3rem; border-radius: 20px; box-shadow: var(--shadow-xl);">
+                    <h3 style="color: white; font-size: 1.8rem; margin-bottom: 2rem;">École Chrétienne Sola Gratia</h3>
+                    <div style="margin-bottom: 1.5rem;">
+                        <h4 style="color: var(--light-blue); margin-bottom: 0.5rem;">Adresse Principale</h4>
+                        <p>Quartier Yokoé, Lomé - République Togolaise</p>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <h4 style="color: var(--light-blue); margin-bottom: 0.5rem;">Niveaux d'Enseignement</h4>
+                        <p>Maternelle, Primaire, Collège et Lycée</p>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <h4 style="color: var(--light-blue); margin-bottom: 0.5rem;">Contact Téléphonique</h4>
+                        <p style="font-size: 1.3rem; font-weight: 700;">+228 90 07 70 54 / +228 91 47 74 56</p>
+                    </div>
+                    <div style="margin-bottom: 2rem;">
+                        <h4 style="color: var(--light-blue); margin-bottom: 0.5rem;">Adresse Électronique</h4>
+                        <p>Ecolesolagratia2002@gmail.com</p>
+                    </div>
+                    <a href="tel:+22891477456" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 1rem;">
+                        <i class="fas fa-phone"></i>
+                        Nous Appeler
+                    </a>
+                </div>
+                
+                <div style="background: white; padding: 3rem; border-radius: 20px; box-shadow: var(--shadow-lg); border-left: 5px solid var(--primary-blue);">
+                    <h3 style="color: var(--primary-blue); font-size: 1.8rem; margin-bottom: 2rem;">Informations Pratiques</h3>
+                    <div style="margin-bottom: 2rem;">
+                        <h4 style="color: var(--text-dark); margin-bottom: 1rem;">Horaires d'Ouverture</h4>
+                        <p style="margin-bottom: 0.5rem;"><strong>Lundi à Vendredi :</strong> 7h00 - 14h30</p>
+                        <p style="margin-bottom: 0.5rem;"><strong>Samedi :</strong> 8h00 - 12h00</p>
+                        <p><strong>Dimanche :</strong> Fermé</p>
+                    </div>
+                    <div style="margin-bottom: 2rem;">
+                        <h4 style="color: var(--text-dark); margin-bottom: 1rem;">Fondateur</h4>
+                        <p>Monsieur DOSSEH Kokou Beaugars</p>
+                    </div>
+                    <div style="margin-bottom: 2rem;">
+                        <h4 style="color: var(--text-dark); margin-bottom: 1rem;">Années d'Expérience</h4>
+                        <p style="font-size: 1.2rem; font-weight: 600; color: var(--primary-blue);">Plus de 23 ans d'excellence éducative</p>
+                    </div>
+                    <a href="mailto:Ecolesolagratia2002@gmail.com" class="btn btn-secondary" style="width: 100%; justify-content: center; color: var(--primary-blue); border-color: var(--primary-blue);">
+                        <i class="fas fa-envelope"></i>
+                        Nous Écrire
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>École Chrétienne Sola Gratia</h3>
+                    <p>
+                        Institution d'excellence éducative depuis 2002, nous formons une génération de leaders 
+                        intègres et compétents, guidés par les valeurs chrétiennes authentiques et préparés 
+                        aux défis du monde contemporain.
+                    </p>
+                    <p style="margin-top: 1.5rem; font-weight: 600; font-style: italic;">
+                        "Par la seule grâce de Dieu, nous accomplissons des exploits remarquables"
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Nos Programmes</h3>
+                    <p><a href="#programs">École Maternelle</a></p>
+                    <p><a href="#programs">École Primaire</a></p>
+                    <p><a href="#programs">Collège d'Excellence</a></p>
+                    <p><a href="#programs">Lycée Sola Gratia</a></p>
+                    <p><a href="#programs">Sections A4, C et D</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Informations de Contact</h3>
+                    <p>Quartier Yokoé, Lomé</p>
+                    <p>République Togolaise</p>
+                    <p>Téléphone : +228 90 07 10 65 / +228 91 47 74 56</p>
+                    <p>Email : Ecolesolagratia2002@gmail.com</p>
+                    <p style="margin-top: 1rem; font-weight: 600;">
+                        Fondateur : M. DOSSEH Kokou Beaugars
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Nos Valeurs</h3>
+                    <p>Excellence Académique</p>
+                    <p>Intégrité et Caractère</p>
+                    <p>Foi et Spiritualité</p>
+                    <p>Leadership et Service</p>
+                    <p>Innovation Pédagogique</p>
+                </div>
+            </div>
+            
+            <div class="developer-credit">
+                <div style="text-align: center; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.2); margin-bottom: 2rem;">
+                    <p style="color: var(--light-blue); font-style: italic; font-size: 1.2rem; margin-bottom: 2rem; font-family: 'Playfair Display', serif;">
+                        "Je puis tout par celui qui me fortifie" - Philippiens 4:13
+                    </p>
+                </div>
+                
+                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+                    <p style="margin: 0;">
+                        &copy; 2025 École Chrétienne Sola Gratia. Tous droits réservés.
+                    </p>
+                    <p style="margin: 0;">
+                        Développé avec excellence par 
+                        <a href="#" class="company-name">FNT Fantom Network Technologies</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Header Scroll Effect
+        const header = document.getElementById('mainHeader');
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        menuToggle.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu after clicking
+                    navMenu.classList.remove('active');
+                }
+            });
+        });
+
+        // Animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fadeIn');
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.value-card, .exam-card, .mission-card').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Console log for development
+        console.log('École Chrétienne Sola Gratia - Site Web Professionnel Chargé');
+        console.log('Développé par FNT Fantom Network Technologies');
+    </script>
+</body>
